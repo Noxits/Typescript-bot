@@ -2,7 +2,7 @@ import { Client, Collection } from "discord.js"
 import { connect } from "mongoose";
 import path from "path";
 import { readdirSync } from "fs";
-import { Command, Events, Config } from "../interfaces";
+import { Command, Events, Config } from "../Interfaces";
 import ConfigJSON from "../config.json";
 
 
@@ -49,5 +49,6 @@ class ExtendedClient extends Client {
         })
     };
 };
+
 
 export default ExtendedClient;

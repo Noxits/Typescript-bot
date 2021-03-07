@@ -1,4 +1,4 @@
-import Client from '../Client';
+import Client from '../Client/index';
 import { ClientEvents } from "discord.js";
 
 interface Run {
@@ -8,4 +8,5 @@ interface Run {
 export interface Events {
     name: keyof ClientEvents;
     run: Run;
+    
 };
