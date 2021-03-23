@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts"
   },
+  "type": "module",
   "author": "Rapougnac",
   "license": "ISC",
   "devDependencies": {

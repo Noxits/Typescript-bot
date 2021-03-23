@@ -1,0 +1,12 @@
+{
+    "token": "TOKEN",
+    "prefix": "PREFIX",
+    "mongoURI": "URI",
+    "verificationLVL": {
+        "NONE": "None",
+        "LOW": "Low",
+        "MEDIUM": "Medium",
+        "HIGH": "(╯°□°）╯︵ ┻━┻",
+        "VERY_HIGH": "┻━┻彡 ヽ(ಠ益ಠ)ノ彡┻━┻"
+    }
+}
